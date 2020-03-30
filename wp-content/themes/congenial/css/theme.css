@@ -1,0 +1,259 @@
+.container-fluid{
+	padding:0px 50px;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index:3; /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: #fff; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  text-align:center;
+  text-decoration: none;
+  font-size: 16px;
+  text-align:left;
+  letter-spacing:1px;
+  color: #818181;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #000;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top:15px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.canvas{
+	width:47px;
+	text-align:center;
+	margin-top:15px;
+}
+.canvas i{
+	padding:15px;
+	font-size:25px;
+    color:#000;
+}
+.footer-widget {
+  color: #ffffff;
+  background-color: #eee;
+  padding: 25px 0px;
+}
+.site-brand {
+  padding: 25px 0px;
+}
+.social {
+  padding-top: 8px;
+}
+.social i {
+  color: #000000;
+  padding:8px;
+  font-size: 16px; 
+}
+.copyright {
+  background-color: #eee;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+/* Woocommerce Css */
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3{
+	font-size:18px;
+	font-weight:300;
+	letter-spacing:1px;
+}
+.woocommerce ul.products li.product .price{
+	font-size:20px;
+	letter-spacing:1px;
+}
+.woocommerce-product-details__short-description p{
+	font-size:16px;
+	line-height:26px;
+    letter-spacing:1px;
+}
+.woocommerce div.product form.cart{
+	padding:25px 0px;
+}
+.woocommerce-Tabs-panel h2{
+	font-size:20px;
+	visibility:hidden;
+}
+.panel p{
+	margin-top:-50px;
+}
+.comment-respond span{
+	font-size:25px;
+	letter-spacing:1px;
+	font-weight:600;
+}
+.woocommerce-Reviews p{
+	font-size:12px;
+	letter-spacing:1px;
+}
+.stars a{
+	color:rgba(211, 140, 18, 1);
+}
+.star-rating{
+	color:rgba(211, 140, 18, 1);
+}
+.woocommerce #reviews #comment{
+	height:200px;
+}
+.product_meta span{
+	font-size:16px;
+	letter-spacing:1px;
+}
+.posted_in a{
+	font-size:16px;
+}
+.social{
+	margin-top:10px;
+}
+.mobile-social i{
+	padding:10px 7px;
+}
+.woocommerce #respond input.alt#submit, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+   border-radius:50px;
+}
+#add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button{
+    display:inline;
+    padding:14px 20px;
+    font-size:13px;
+    letter-spacing:1px;
+}
+.entry-header h1{
+    font-size:28px;
+    font-weight:600;
+    letter-spacing:1px;
+}
+.social{
+	z-index:2;
+}
+.parallax{
+	z-index:-1;
+}
+.footer-widget h3{
+	font-size:22px;
+	font-weight:700;
+	letter-spacing:1px;
+}
+
+.woocommerce-billing-fields h3{
+    font-size:28px;
+    font-weight:600;
+    letter-spacing:1px;
+}
+.woocommerce-additional-fields h3{
+    font-size:28px;
+    font-weight:600;
+    letter-spacing:1px;
+}
+.woocommerce-info {
+    font-size:14px;
+    letter-spacing:1px;
+}
+.form-row place-order{
+	font-size:14px;
+    letter-spacing:1px;
+}
+.product-name a{
+	letter-spacing:1px;
+}
+.product-name {
+	letter-spacing:1px;
+}
+.product-price {
+	letter-spacing:1px;
+}
+.product-quantity {
+	letter-spacing:1px;
+}
+.product-subtotal {
+	letter-spacing:1px;
+}
+.cart_totals  h2{
+   font-size:25px;
+   font-weight:600;
+   letter-spacing:1px;
+}
+.woocommerce-products-header h1{
+   font-size:28px;
+   font-weight:800;
+   letter-spacing:1px;
+}
+.woocommerce-checkout h3{
+   font-size:16px;
+   font-weight:700;
+   letter-spacing:1px;
+}
+.woocommerce-info{
+	border-top-color:#000;
+}
+.woocommerce-info::before{
+	color:#000;
+}
+.woocommerce #respond input.alt#submit, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+	background:#3e976c;
+}
+.woocommerce #respond input.alt#submit:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+	background:#3e976c;
+	color:#fff;
+}
+#add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment{
+	background:rgba(240, 239, 240, 0.31);
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+	font-weight:300;
+	padding:.750em 2em;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.price{
+	font-size:25px;
+	font-weight:600;
+}
+.related h2{
+	font-size:30px;
+	font-weight:600;
+}
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover{
+	border-radius:50px;
+	transition:1s;
+}
+.woocommerce-message{
+  border-top-color:#fff;
+}
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img{
+  width:30%;
+}
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger{
+  border-radius:0px;
+}
+.entry-summary h1{
+	font-size:30px;
+	letter-spacing:1px;
+	color:#000;
+	font-weight:600;
+	
+}

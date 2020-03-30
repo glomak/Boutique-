@@ -1,0 +1,30 @@
+div.easypay_waiting {
+    background: transparent url('../image/loader.gif') no-repeat 50% 50%;
+ 
+    opacity: 1;
+ -webkit-transition: background-color 0;
+    transition: background-color 0;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    height: 248px;
+    width: 248px;
+    z-index: 999999999;
+}
+
+body.easypay_loader  {
+  
+    opacity: 0.5;
+
+ 
+    -webkit-transition: opacity 0;
+    transition: opacity 0;
+}
+
+.easypay_waiting .cust-pin-notification-text{
+	margin-top: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    color: #000;
+    font-weight: 600;
+}

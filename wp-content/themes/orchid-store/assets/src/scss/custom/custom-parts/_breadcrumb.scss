@@ -1,0 +1,85 @@
+
+body.home .os-breadcrumb-wrap {
+
+    display: none;
+}
+
+.os-breadcrumb-wrap {
+
+    position:relative;
+    background-color:#444444;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:80px 0;
+    margin-top: -40px;
+}
+
+.os-breadcrumb-wrap .breadcrumb-inner {
+
+    position:relative;
+    z-index:7;
+    text-align:center;
+}
+
+.os-breadcrumb-wrap .mask {
+
+    background: rgba(0,0,0,0.2);
+}
+
+.woocommerce .woocommerce-breadcrumb {
+
+    padding:0;
+    margin:0;
+}
+
+.os-breadcrumb-wrap ul {
+
+	list-style: none;
+}
+
+.os-breadcrumb-wrap ul li,
+.os-breadcrumb-wrap ul li a,
+.os-breadcrumb-wrap ul li span {
+    
+    font-size:14px;
+	display:inline-block;
+}
+
+.os-breadcrumb-wrap ul {
+    
+    position:relative;
+    z-index: 5;
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.os-breadcrumb-wrap ul li {
+
+    flex: 0 auto;
+    padding-right: 10px;
+}
+
+.os-breadcrumb-wrap ul li a,
+.os-breadcrumb-wrap ul li span {
+
+    @include transation_delay();
+}
+
+
+.os-breadcrumb-wrap li.trail-item:after {
+
+    content:'/';
+    font-size: 10px;
+    padding-left:10px;
+}
+
+.os-breadcrumb-wrap li.trail-item.trail-end:after {
+
+    content:'';
+    display:none;
+}
+
